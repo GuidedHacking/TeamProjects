@@ -28,5 +28,3 @@ int main()
 
 	return 1;
 }
-
-// Bonjour, nebssss
