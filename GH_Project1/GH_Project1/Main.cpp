@@ -16,6 +16,7 @@ int main()
 
 	for (int chr = 0; chr < 14; chr++)
 	{
+		// Comment by till0sch
 		SleepEx(100, true);
 
 		std::cout << Hello[chr];
