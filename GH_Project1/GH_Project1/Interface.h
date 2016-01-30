@@ -6,7 +6,7 @@ public:
 	cInterface();
 	~cInterface();
 
-	int printGUI()
+	int printGUI();
 	int printGUI2();
 
 private:
