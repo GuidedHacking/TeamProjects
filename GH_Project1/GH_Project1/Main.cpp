@@ -10,6 +10,11 @@ Changed the printing method to a loop, Looks cooler.
 #include <Windows.h>
 #include <iostream>
 
+void noob()
+{
+	std::cout << "rake is a fgt" << std::endl;
+}
+
 int main()
 {
 	const char* Hello = "Hello World !";
