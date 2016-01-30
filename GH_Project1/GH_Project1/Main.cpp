@@ -35,5 +35,5 @@ int main()
 
 void rake()
 {
-	//Alex is coolz kid
+	std::cout << "rake is coolz kid" << std::endl;
 }
