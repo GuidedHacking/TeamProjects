@@ -12,7 +12,7 @@ Changed the printing method to a loop, Looks cooler.
 
 void alex()
 {
-	std::cout << "alex is a SOCIOPATH KILLER" << std::endl;
+	std::cout << "alex is a SOCIOPATH KILLER" << std::endl; //Lel -Alex
 }
 
 void rake()
