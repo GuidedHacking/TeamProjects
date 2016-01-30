@@ -47,3 +47,8 @@ void rake()
 {
 	std::cout << "rake is coolz kid" << std::endl;
 }
+
+void solaire()
+{
+	std::cout << "solaire is betrayer" << std::endl;
+}
