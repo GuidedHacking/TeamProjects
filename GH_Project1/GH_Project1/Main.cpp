@@ -20,6 +20,11 @@ void func()
 	std::cout << "huehuehuehue" << std::endl;
 }
 
+void anotherFunc()
+{
+	std::cout << "function test" << std::endl;
+} 
+
 int main()
 {
 	const char* Hello = "Hello World !";
