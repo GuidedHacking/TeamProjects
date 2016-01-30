@@ -26,7 +26,7 @@ void rake()
 
 void solaire()
 {
-	std::cout << "solaire is a betrayer" << std::endl;
+	std::cout << "solaire is a betrayer" << std::endl; //Where is part 2?s
 }
 
 void Till0sch()
