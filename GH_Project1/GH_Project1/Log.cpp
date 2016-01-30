@@ -9,6 +9,7 @@ cLog::cLog()
 
 cLog::~cLog()
 {
+	fclose(logFile);
 }
 
 int cLog::logText(const char* output)
@@ -17,12 +18,10 @@ int cLog::logText(const char* output)
 	{
 		fopen_s(&logFile, "Alex.log", "w");
 	}
-	else {}
 
-	if (fputs(output, logFile) <= 0) {}
-	else
+	if (fputs(output, logFile) > 0)
 	{
-		MessageBox(0, "Error while writing logs", 0, 0);
+		MessageBox(0, L"Error while writing logs", 0, 0);
 	}
 
 	fputs("\n", logFile);

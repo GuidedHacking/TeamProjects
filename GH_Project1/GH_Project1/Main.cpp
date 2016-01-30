@@ -39,6 +39,8 @@ cLog Log;
 int main()
 {
 	Log.logText("int main() : Solaire is neb");
+	Log.logText("int main() : Alex is neb");
+	Log.logText("int main() : Actually, Solaire is tru neb");
 
 	Interface.printGUI();
 	std::cout << mathematical<int>(12, 4, Operation::ADD) << std::endl;
