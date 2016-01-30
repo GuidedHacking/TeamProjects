@@ -7,7 +7,6 @@ public:
 	~cInterface();
 
 	int printGUI();
-	int printGUI2();
 
 private:
 
