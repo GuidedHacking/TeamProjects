@@ -27,3 +27,8 @@ int main()
 
 	return 1;
 }
+
+void rake()
+{
+	//Alex is coolz kid
+}
