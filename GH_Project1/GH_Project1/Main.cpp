@@ -6,46 +6,23 @@ Added a variable containing a string, which is printed as output.
 30/1/2016 Update|Alex:
 Changed the printing method to a loop, Looks cooler.
 
-
 30/1/2016 Update|Alex&Till
 Added useless functions for merge testing.
+
+30/1/2016 Update|Alex
+Added a more polite output.
 */
 
 #include <Windows.h>
 #include <iostream>
 
-void alex()
-{
-	std::cout << "alex is a SOCIOPATH KILLER" << std::endl; //Lel -Alex
-}
+#include "Interface.h"
 
-void rake()
-{
-	std::cout << "rake is coolz kid" << std::endl;
-}
-
-void solaire()
-{
-	std::cout << "solaire is a betrayer" << std::endl; //Where is part 2?s
-}
-
-void Till0sch()
-{
-	std::cout << "Till is a trigger-happy" << std::endl;
-}
+cInterface Interface;
 
 int main()
 {
-	const char* Hello = "Hello World !";
-
-	for (int chr = 0; chr < 14; chr++)
-	{
-		// Comment by till0sch
-		SleepEx(100, true);
-
-		std::cout << Hello[chr];
-	}
-	std::cout << std::endl;
+	Interface.printGUI();
 
 	std::cin.get();
 
