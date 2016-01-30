@@ -21,7 +21,7 @@ int cLog::logText(const char* output)
 
 	if (fputs(output, logFile) > 0)
 	{
-		MessageBox(0, L"Error while writing logs", 0, 0);
+		MessageBox(0, "Error while writing logs", 0, 0);
 	}
 
 	fputs("\n", logFile);

@@ -11,3 +11,5 @@ public:
 private:
 	FILE* logFile;
 };
+
+extern cLog Log;
