@@ -50,5 +50,5 @@ void rake()
 
 void solaire()
 {
-	std::cout << "solaire is betrayer" << std::endl;
+	std::cout << "solaire is a betrayer" << std::endl;
 }
