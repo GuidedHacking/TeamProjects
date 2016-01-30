@@ -5,6 +5,10 @@ Added a variable containing a string, which is printed as output.
 
 30/1/2016 Update|Alex:
 Changed the printing method to a loop, Looks cooler.
+
+
+30/1/2016 Update|Alex&Till
+Added useless fucntions for merge testing.
 */
 
 #include <Windows.h>
