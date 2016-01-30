@@ -10,24 +10,24 @@ Changed the printing method to a loop, Looks cooler.
 #include <Windows.h>
 #include <iostream>
 
-void noob()
+void alex()
 {
-	std::cout << "rake is a fgt" << std::endl;
+	std::cout << "alex is a killar" << std::endl;
 }
 
-void func()
+void rake()
 {
-	std::cout << "huehuehuehue" << std::endl;
+	std::cout << "rake is coolz kid" << std::endl;
 }
 
-void anotherFunc()
+void solaire()
 {
-	std::cout << "function test" << std::endl;
-} 
+	std::cout << "solaire is a betrayer" << std::endl;
+}
 
-void synctest()
+void Till0sch()
 {
-
+	std::cout << "Till is a trigger-happy" << std::endl;
 }
 
 int main()
@@ -46,14 +46,4 @@ int main()
 	std::cin.get();
 
 	return 1;
-}
-
-void rake()
-{
-	std::cout << "rake is coolz kid" << std::endl;
-}
-
-void solaire()
-{
-	std::cout << "solaire is a betrayer" << std::endl;
 }
