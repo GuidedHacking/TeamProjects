@@ -1,15 +1,26 @@
 /*Made by Alex 30/1/2016
 
-30/1/2016 Update:
-Added a variable containing a string, which is printed as output.*/
+30/1/2016 Update|Alex:
+Added a variable containing a string, which is printed as output.
+
+30/1/2016 Update|Alex:
+Changed the printing method to a loop, Looks cooler.
+*/
+
 #include <Windows.h>
 #include <iostream>
 
 int main()
 {
-	const char* Hello = "Hello World!";
+	const char* Hello = "Hello World !";
 
-	std::cout << Hello << "\n";
+	for (int chr = 0; chr < 14; chr++)
+	{
+		SleepEx(100, true);
+
+		std::cout << Hello[chr];
+	}
+	std::cout << std::endl;
 
 	std::cin.get();
 
