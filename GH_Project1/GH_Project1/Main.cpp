@@ -14,6 +14,9 @@ Added a more polite output.
 
 30/1/2016 Update|Solaire
 Added a test function.
+
+30/1/2016 Update|Alex
+Made a random logging function
 */
 
 #include <Windows.h>
