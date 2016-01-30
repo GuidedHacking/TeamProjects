@@ -37,3 +37,8 @@ int main()
 
 	return 1;
 }
+
+void rake()
+{
+	std::cout << "rake is coolz kid" << std::endl;
+}
