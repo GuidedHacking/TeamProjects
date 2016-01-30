@@ -17,11 +17,15 @@ Added a more polite output.
 #include <iostream>
 
 #include "Interface.h"
+#include "Log.h"
 
 cInterface Interface;
+cLog Log;
 
 int main()
 {
+	Log.logText("int main() : Solaire is neb");
+
 	Interface.printGUI();
 
 	std::cin.get();
