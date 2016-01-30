@@ -25,6 +25,11 @@ void anotherFunc()
 	std::cout << "function test" << std::endl;
 } 
 
+void synctest()
+{
+
+}
+
 int main()
 {
 	const char* Hello = "Hello World !";
