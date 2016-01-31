@@ -19,6 +19,12 @@
     <Filter Include="D3D9">
       <UniqueIdentifier>{884b28cf-a2a5-4ae9-ba3a-b066f2bf11a2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="D3D9\Header Files">
+      <UniqueIdentifier>{fe0d4855-f060-4c91-94f5-7600d9465c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D9\Source Files">
+      <UniqueIdentifier>{d74b81ca-124b-4869-85a1-40c1d0fd5fff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -39,6 +45,12 @@
     <ClCompile Include="disasm-lib\misc.c">
       <Filter>MHook</Filter>
     </ClCompile>
+    <ClCompile Include="D3D9_Hook.cpp">
+      <Filter>D3D9\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Draw.cpp">
+      <Filter>D3D9\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mhook-lib\mhook.h">
@@ -58,6 +70,12 @@
     </ClInclude>
     <ClInclude Include="disasm-lib\misc.h">
       <Filter>MHook</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Hook.h">
+      <Filter>D3D9\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Draw.h">
+      <Filter>D3D9\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -81,6 +81,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\Daten\Programmieren\C++\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Daten\Programmieren\C++\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -143,6 +145,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="D3D9_Draw.cpp" />
+    <ClCompile Include="D3D9_Hook.cpp" />
     <ClCompile Include="disasm-lib\cpu.c" />
     <ClCompile Include="disasm-lib\disasm.c" />
     <ClCompile Include="disasm-lib\disasm_x86.c" />
@@ -151,6 +155,8 @@
     <ClCompile Include="mhook-lib\mhook.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="D3D9_Draw.h" />
+    <ClInclude Include="D3D9_Hook.h" />
     <ClInclude Include="disasm-lib\cpu.h" />
     <ClInclude Include="disasm-lib\disasm.h" />
     <ClInclude Include="disasm-lib\disasm_x86.h" />
