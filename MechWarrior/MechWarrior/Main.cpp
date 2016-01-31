@@ -3,7 +3,7 @@
 
 DWORD WINAPI MainThread(LPVOID lp)
 {
-	return 0;
+	return NULL;
 }
 
 BOOL WINAPI DllMain(HMODULE hMod, DWORD dwReason, LPVOID lpvReserved)
