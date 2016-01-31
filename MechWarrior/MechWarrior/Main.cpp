@@ -1,9 +1,22 @@
 #include <Windows.h>
 #include <process.h>
 
-// change by till0sch just to see if it's working
-// IT IS :^)
 int WINAPI DllMain(HMODULE hMod, DWORD dwReason_for_call, LPVOID lpvReserved)
 {
+	//DisableThreadLibraryCalls(hMod);
 
+	switch (dwReason_for_call)
+	{
+	case DLL_PROCESS_ATTACH:
+		//Success:
+
+		break;
+
+	default:
+		//Failed:
+
+		break;
+	}
+
+	return 1;
 }
