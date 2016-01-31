@@ -1,9 +1,16 @@
 #include <Windows.h>
 #include <process.h>
 
-// change by till0sch just to see if it's working
-// IT IS :^)
-int WINAPI DllMain(HMODULE hMod, DWORD dwReason_for_call, LPVOID lpvReserved)
+DWORD WINAPI MainThread(LPVOID lp)
 {
 
+}
+
+BOOL WINAPI DllMain(HMODULE hMod, DWORD dwReason, LPVOID lpvReserved)
+{
+	if (dwReason == DLL_PROCESS_ATTACH)
+	{
+		CreateThread(0, 0, MainThread, 0, 0, 0);
+	}
+	return TRUE;
 }
