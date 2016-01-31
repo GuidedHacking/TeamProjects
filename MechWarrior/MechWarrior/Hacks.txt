@@ -1,0 +1,16 @@
+---------Radar---------
+Amount_of_entities_drawn(int):
+"MWOClient.exe"+23BD0A0
+"MWOClient.exe"+023BCFF0 + a0
+"MWOClient.exe"+023BCFD8 + b8
+"MWOClient.exe"+023BCFC0 + d0
+"MWOClient.exe"+023BCF10 + 1a0
+---------Player---------
+Move_Speed(float):
+"MWOClient.exe"+021E9A40 + 65c + b8 + 10 + 538 + 1d8
+"MWOClient.exe"+0204C270 + 65c + b8 + 10 + 538 + 1d8
+---------D3D---------
+Device:
+cryrenderd3d9.dll+2D70D8
+Endscene:
+cryrenderd3d9.dll+2D70D8 + 150

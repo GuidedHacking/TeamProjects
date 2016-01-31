@@ -78,4 +78,9 @@
       <Filter>D3D9\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Hacks.txt">
+      <Filter>D3D9</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
